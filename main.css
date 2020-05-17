@@ -1,0 +1,44 @@
+main {
+  width: 400px;
+  margin: 100px auto;
+  /* margin: 100px auto 100px; */
+  /* margin-top: 100px; */
+}
+
+#main {
+  width: 400px;
+  height: 300px;
+  /* margin: 0 auto; */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+nav li {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+#play {
+  width: 150px;
+}
+
+#prev,
+#next {
+  width: 100px;
+}
