@@ -3,9 +3,9 @@
 
   // 画像を配列で取得。images[currentIndex]で画像切り替え。
   const images = [
-    'img/pig1.jpg',  // 0
-    'img/pig2.jpg',  // 1
-    'img/pig3.jpg'   // 2
+    './img/pig1.jpg',  // 0
+    './img/pig2.jpg',  // 1
+    './img/pig3.jpg'   // 2
   ];
 
   // 画像初期は０。
